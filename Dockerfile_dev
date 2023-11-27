@@ -1,0 +1,8 @@
+FROM eclipse-temurin:21.0.1_12-jdk
+
+RUN apt update;\
+    apt install -y maven 
+    
+CMD ["/bin/bash"]
+#. ./set_api_key.sh
+#mvn -N install

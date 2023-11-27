@@ -1,3 +1,4 @@
+set_api_key.sh
 *.pydevproject
 .metadata
 .gradle
